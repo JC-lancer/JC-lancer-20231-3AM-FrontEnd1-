@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    
+}
+
+.encabezado {
+    /* Regla de estilo que se aplicara a los elementos que tengan la clase encabezado */
+    margin: 0 auto;
+    /* Margen Exterior */
+    background-color: aqua;
+    padding: 10px;
+    /* Margen Interior */
+    text-shadow: 10px;
+
+    /* Alineacion del texto */
+
+    /* Propiedades del borde : grosor, tipo, color */
+}
+
+.menu h1 {
+    /* Regla de estilo que se aplicara a los elementos que estan dentro del elmento que tiene la clase menu */
+    color: rgb(32, 26, 26);
+    text-align: center;
+}
+
+.enlaces {
+    /* Flexbox */
+    color: white;
+    display: flex;
+    gap: 20px;
+    height: 50px;
+    
+}
+
+
+/* .enlaces li {
+    list-style: none;
+}*/
+
+.menuItem {
+    list-style: none;
+    font-family: lu;
+    
+}
+
+.menuItem a div {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+
+
+/* Psudoclases : hover> cuando el cursor esta encima */
+
+.menuItem a div:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(218, 215, 215);
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px black;
+}
+
+.contenido {
+    margin-top: 15px;
+    background: linear-gradient(to left, red, white,#999999);
+    /* borde de el elemento: grosor tipo color */
+    border: 5px solid black;
+    /* curvatura del cada esquina : ESI ESD EID EII | uno para todos */
+    /* border-radius: 50px 30px 15px 5px; */
+    border-radius: 25px;
+    /* Color de fondo*/
+    /* background-color: antiquewhite;*/
+    /* Ancho */
+    width: 75%;
+    /* Alto */
+    height: 250px;
+    /* Margen exterior  */
+    margin-left: 10%;
+    
+    /* margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 5%; */
+    /* Margen interior */
+    color: black;
+    border-radius: 10px;
+    /* Fondo con degradado de colores */
+    /*background: linear-gradient(-15deg, #FFFFFF, #581edf, #ade90a, #ABC000);*/
+    /* background: linear-gradient(to left, #000000, #FFFFFF, #999999); */
+    /*background: linear-gradient(to top, transparent, #666666, #ade90a, #ABC000);*/
+    text-align: center;
+    box-shadow: 5px 5px 15px rgb(212, 43, 57);
+    padding: 0.5%;
+    
+}
+
+.inombre {
+    
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 5px;
+    
+}
+
+.inombre:hover {
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
